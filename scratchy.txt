@@ -1,0 +1,14 @@
+cd libs
+git clone https://github.com/nlohmann/json.git
+cd ..
+
+
+#include <fftw3.h>
+#include <Eigen/Dense>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <random>
+#include <cmath>
+#include <algorithm>
+#include <arm_neon.h> // Include NEON intrinsics

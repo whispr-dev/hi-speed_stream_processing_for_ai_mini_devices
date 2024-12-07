@@ -1,0 +1,3 @@
+C:\mingw\bin\cmake.exe -E rm -f CMakeFiles\audio_processor.dir/objects.a
+C:\mingw\bin\ar.exe qc CMakeFiles\audio_processor.dir/objects.a @CMakeFiles\audio_processor.dir\objects1.rsp
+C:\mingw\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\audio_processor.dir/objects.a -Wl,--no-whole-archive -o audio_processor.exe -Wl,--out-implib,libaudio_processor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\audio_processor.dir\linkLibs.rsp

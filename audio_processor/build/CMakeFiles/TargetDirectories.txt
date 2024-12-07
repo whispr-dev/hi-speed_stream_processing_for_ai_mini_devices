@@ -1,0 +1,3 @@
+C:/Users/phine/Desktop/audio_processor/build/CMakeFiles/audio_processor.dir
+C:/Users/phine/Desktop/audio_processor/build/CMakeFiles/edit_cache.dir
+C:/Users/phine/Desktop/audio_processor/build/CMakeFiles/rebuild_cache.dir
