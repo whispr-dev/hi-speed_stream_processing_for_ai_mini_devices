@@ -1,0 +1,13 @@
+cd c:/users/phine/documents/github/hi-speed_stream_processing_for_ai_mini_devices/audio_processor/build/
+
+
+rd /s /q build
+mkdir build
+cd build
+"C:\mingw\bin\cmake.exe" -G "MinGW Makefiles" .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE=ON
+"C:\mingw\bin\mingw32-make.exe" VERBOSE=1
+
+
+
+g++ -I C:/libsndfile/include -L C:/libsndfile/lib -lsndfile test.cpp -o test
+hi-speed_stream_processing_for_ai_mini_devices\audio_processor\build
